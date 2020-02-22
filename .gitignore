@@ -36,11 +36,9 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
-.DS_STORE
 node_modules
 scripts/flow/*/.flowconfig
 *~
-*.pyc
 .grunt
 _SpecRunner.html
 __benchmarks__
@@ -71,3 +69,6 @@ packages/react-devtools-extensions/firefox/*.pem
 packages/react-devtools-extensions/shared/build
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
+
+appsettings.json
+*.db
